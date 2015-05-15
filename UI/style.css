@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   padding: 5px 0px 30px;
   min-width: 60%;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -30,14 +31,14 @@ header {
 }
 
 .title {
-  padding-top: 5px;
+  padding: 5px 0px 0px;
   font-size: xx-large;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 .title h4 {
+  padding:5px 0px 0px;
   font-size: large;
   font-weight: bolder;
 }
@@ -45,12 +46,10 @@ header {
 h2 {
   font-size: x-large;
   font-weight: ;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 h3 {
   font-size: medium;
-  font-family: Geneva, Arial, Helvetica, sans-serif;
   }
 
 header:after {
@@ -60,31 +59,28 @@ header:after {
 }
 
 .main_menu {
-  /*margin-top:0px;*/
-  margin-bottom:5px;
-  /*margin-left:0px;*/
-  /*padding-left: 0px;*/
-  background: #1C1C1C; /* цвет фона */
+  margin-bottom:10px;
+  background: #1C1C1C;
 }
 
 .main_menu li {
   display: inline-block;
-  margin-left: 0px;
+  margin: 0px;
   height:100%;
-  text-align: center; /* текст горизонтально по центру */
+  text-align: center;
 }
 
 .main_menu a {
-  display: block; /* ссылка растягивается на весь пункт li */
+  display: block;
   margin: 10px 0px;
   padding: 0 20px;
-  color: #fff; /* цвет текста */
-  text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+  color: #fff;
+  text-decoration: none;
   vertical-align: center;
 }
 
 .main_menu li:hover {
-  background: gray; /* фон пунктов при наведении */
+  background: gray;
 }
 
 article {
@@ -103,7 +99,7 @@ aside {
   display: block;
   width: 250px;
   height: 100%;
-  margin-top: 10px;
+  margin: 10px 0px 0px;
   float:left;
 }
 
@@ -113,71 +109,37 @@ aside {
 }
 
 .menu li {
-  margin-left: 0px;
-  padding-left: 0px;
   list-style-type: none;
   text-align: center;
 }
 
 .menu a {
-  display: block; /* ссылка растягивается на весь пункт li */
+  display: block;
   padding: 10px 0px;
-  color: #fff; /* цвет текста */
-  text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu a:hover {
-  background: silver; /* фон пунктов при наведении */
+  background: silver;
 }
 
 .content {
-  padding-left: 260px;
+  padding: 0px 0px 0px 260px;
 }
 
 .text {
-  margin-top:5px;
+  margin:5px 0px 0px;
 }
 
 p {
-  padding-bottom: 10px;
+  padding: 0px 0px 10px;
   font-size: medium;
 }
-/*.reference {
-  margin-top:15px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.reference a {
-  color: #FFFFFF;
-}
-
-.reference a:link {
-  text-decoration: none; /* Убирает подчеркивание для ссылок */
-   }
-
-/*.reference a:visited {
-	text-decoration: none;
-}*/
-
-/*.reference a:active { text-decoration: none; }*/
-
-/*.reference a:hover {
-  text-decoration: underline;
-  color: red;
-}*/
-
-.content_h2 {
-   padding-top: 10px;
-}
-
-/*.content h2 {
- margin-top: 5px;
-}*/
 
 .content_list{
   padding: 10px;
-  margin-left: 30px;
+  margin: 0px 0px 0px 30px;
 }
 
 .content_list li{
@@ -186,14 +148,14 @@ p {
 }
 
 .before_footer{
-   height:5px;
+   height:10px;
    visibility: hidden;
 }
 
 footer {
   bottom: 0;
-  background: black;
   height: 20px;
-  margin-top: -20px;
+  margin: -20px 0px 0px;
+  background: black;
 }
 
